@@ -1,8 +1,7 @@
 // Practicing template literals on my own in JavaScript 3-14-2021
 const human = {
-
     name: 'Christina',
-   scientificName: 'Christinayx Programmertus'
+    scientificName: 'Christinayx Programmertus'
 };
 
 function createFriendlyGreeting(friend) {
@@ -11,7 +10,7 @@ function createFriendlyGreeting(friend) {
     Your scientific name ${friend.scientificName} is very strange.
     I think I'll continue to call you ${friend.name}.`;
 
- return friendGreeting;
+    return friendGreeting;
 }
 
 console.log(createFriendlyGreeting(human));
